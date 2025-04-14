@@ -25,12 +25,12 @@ As you might have guessed, this results in a bigger executable file, but the ben
 
 1. **Create the object files for the different functions of the library with the `-c` flag**  
    ```bash
-   gcc -c foo.c  # This creates the object file foo.o
+   gcc -c foo.c  -> This creates the object file foo.o
    ```
 
 2. **Create the library with the `ar` command**  
    ```bash
-   ar rcs libft.a foo.o  # This creates the static library libft.a
+   ar rcs libft.a foo.o  -> This creates the static library libft.a
    ```
 
 Great! The library was created. Now the last step is linking it with your program:
