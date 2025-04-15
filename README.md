@@ -1,4 +1,4 @@
-# Libft project for 42
+# First library in C
 
 Libft is the first project for the 42 Common Core Curriculum. It consists in the creation of a library with several functions that will be used in later projects.
 
